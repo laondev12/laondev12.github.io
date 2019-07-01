@@ -5,18 +5,27 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-theme: jekyll-theme-cayman
-
 # Site-Settings
-locale              : "kr-KO"
 title               : "LAONDEV12"
 title_separator     : "-"
-name                : "laondev12"
 description         : "Storage"
+name                : "laondev12"
+language            : "KO"
+author              : Woohyon Kim
+timezone            : Asia/Seoul
 
 # URL-Settings
 url                 : "https://laondev12.github.io"
 baseurl             : ""
+
+
+# Theme-Settings
+theme_settings:
+  title             : theme-type-cayman
+  description       : Archive
+  favicon           : 
+
+
 
 
 # Directory
@@ -28,3 +37,15 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+# Site
+title: Jei's blog
+subtitle:
+description:
+author: Jei
+language: ko
+timezone: Asia/Seoul
+
+
+
+
