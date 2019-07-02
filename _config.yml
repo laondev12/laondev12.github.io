@@ -12,7 +12,6 @@ description         : "Storage"
 name                : "laondev12"
 language            : "KO"
 author              : Woohyon Kim
-timezone            : Asia/Seoul
 
 # URL-Settings
 url                 : "https://laondev12.github.io"
@@ -22,30 +21,94 @@ baseurl             : ""
 # Theme-Settings
 theme_settings:
   title             : theme-type-cayman
-  description       : Archive
-  favicon           : 
+  avartar           : assets/img/terminal.png
+  favicon           : assets/terminal.ico
+  gravartar         : Email MD5 hash
+  description       : "Archive"
 
+  # Header and footer text
+  header_text: >
+      <p>Deep Learning Researcher</p?
+  
+  header_text_feature_image:
+  footer_text: >
+      Powered by <a href="https://jekyllrb.com/">Jekyll</a>
 
+  # Icons
+  rss: true
+  email_address     : "laondev12@gmail.com" # Full email address, e.g. "sam@example.com"
+  behance           :
+  bitbucket         :
+  dribbble          :
+  facebook          :
+  flickr            :
+  gitlab            :
+  github            : "laondev12"
+  google_plus       :
+  instagram         :
+  linkedin          :  # Full URL
+  pinterest         :
+  reddit            :
+  soundcloud        :
+  stack_exchange    :  # Full URL
+  steam             :
+  tumblr            :
+  twitter           :
+  wordpress         :
+  youtube           :
+  
+  # Scripts
+  google_analytics  : # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname  : laondev12
+  katex             : true # Enable if using math markup
+  search            : true # Enable the search feature
 
+  # Localization strings
+  str_follow_on     : "Follow on"
+  str_rss_follow    : "Follow RSS feed"
+  str_email         : "Email"
+  str_next_post     : "Next post"
+  str_previous_post : "Previous post"
+  str_next_page     : "Next"
+  str_previous_page : "Prev"
+  str_continue_reading                : "Continue reading"
+  str_javascript_required_disqus      : "Please enable JavaScript to view comments."
+  str_search_no_results               : "No results found."
 
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts      : "Nanum+Gothic:400,700"
 
-# Site
-title: Jei's blog
-subtitle:
-description:
-author: Jei
-language: ko
-timezone: Asia/Seoul
+  # Post navigation
+  post_navigation: true
 
+encoding            : 'utf-8'
 
+# Category-Settings
+category_path       : "category" # <- default value
+category_layout     : "category.html" # <- default value
 
+# PAGINATION
+paginate            : 5
+paginate_path       : "blog/page:num"
+
+animation           : true
+
+# Build-Settings
+markdown            : kramdown
+highlighter         : green
+sass:
+  sass_dir          : _sass
+  style             : :compressed
+plugins:
+  - jekyll-paginate
+  - jekyll-category-pages
+gem:
+    - jekyll-sitemap
+    - jekyll-feed
+    - wdm
+theme               : jekyll-theme-type
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
