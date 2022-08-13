@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Home
+title: Test_page
+parent: /docs
 nav_order: 1
 description: "Create test page."
-permalink: /
 ---
 
 # Storage
