@@ -17,6 +17,7 @@ title: Storage
 description: Blog for Archiving
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://laondev12.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+remote_theme: just-the-docs/just-the-docs
 
 permalink: /
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
