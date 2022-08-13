@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Test_page
-parent: /docs
+parent: Test
 nav_order: 1
 description: "Create test page."
 ---
 
-# Storage
+# Test_1
 
 Test Page
