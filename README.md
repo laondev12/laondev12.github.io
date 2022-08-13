@@ -1,2 +1,0 @@
-# Storage
-Blog for Archiving
